@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarKeeper — Release notes</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #222;
+            background: #f7f7f7;
+        }
+
+        main {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        .tagline {
+            color: #666;
+            margin-top: 0;
+        }
+
+        h2 {
+            margin-top: 32px;
+        }
+
+        h3 {
+            margin: 30px 0 6px;
+            font-size: 1.15em;
+        }
+
+        ul {
+            margin-top: 6px;
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        a {
+            color: #1a5fb4;
+        }
+
+        .intro,
+        .lang-link {
+            color: #555;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ddd;
+            margin: 40px 0;
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<main>
+
+    <h1>CarKeeper</h1>
+    <p class="tagline">Your vehicle information. On your phone. That's it.</p>
+
+    <h2 id="release-notes">Release notes</h2>
+    <p class="lang-link"><a href="#notes-de-version">Français</a></p>
+
+    <p class="intro">
+        Every release, newest first. If a release says to back up first,
+        use Settings → Backup &amp; restore before updating.
+    </p>
+
+    <!--
+    TEMPLATE FOR A NEW RELEASE. Copy this block into the top of the English
+    list (just under this comment) and into the top of the French list, then
+    edit it.
+
+    <h3>1.9.1 — Short title</h3>
+    <ul>
+        <li>What changed, written for someone using the app.</li>
+        <li>Keep each bullet to one idea.</li>
+    </ul>
+    -->
+
+    <h3>1.9 — Quick reference, your way</h3>
+    <ul>
+        <li>New <strong>Settings → Quick reference</strong> page with a switch for every row the dashboard can show: plate, VIN, each fluid, each part category, wipers and tires.</li>
+        <li>Rows you hide are summarized by a "N hidden · Customize" line at the bottom of the quick reference, which takes you straight back to the switches.</li>
+        <li>Hiding only changes the dashboard. Your data, reminders, the Parts screen and PDF reports are unchanged, and the tire tread warning still appears.</li>
+        <li>Everything is shown by default, so nothing changes until you choose.</li>
+    </ul>
+
+    <h3>1.8.1 — Custom categories you can reuse</h3>
+    <ul>
+        <li>The custom field is now <strong>Category name</strong>, with a list of names you have used before, so a repeat job lands in the same category.</li>
+        <li>A new <strong>What was done</strong> field holds the description, so the category name can stay short.</li>
+        <li>Names match regardless of capital letters and extra spaces, so cost totals no longer split into separate lines.</li>
+        <li>To fix older entries, open the entry in History and edit its Category name. Old entries are not merged automatically, because the app cannot tell where a name ends and the description begins.</li>
+    </ul>
+
+    <h3>1.8 — Tires, one by one</h3>
+    <ul>
+        <li><strong>Back up first.</strong> This update changes how tires are stored. Use Settings → Backup &amp; restore before updating.</li>
+        <li>Tires are now tracked individually instead of as matched sets, so a temporary spare, a single replacement or a mixed setup can all be recorded.</li>
+        <li>Mount tires at each corner on the Tires screen. A corner can stay empty.</li>
+        <li>Tires that are off the vehicle are listed under <strong>In storage</strong>, grouped by season. Worn or damaged tires can be <strong>Retired</strong> with a reason and stay on file.</li>
+        <li>Each tire remembers the corner it was on before, so rotations are visible. When mounting, tread depth and previous corner are shown to tell identical tires apart.</li>
+        <li>Add several matching tires at once: enter the details once and choose how many.</li>
+        <li>If two sets had both been marked as on the vehicle, those tires move to storage and you say what is really mounted. That situation could happen from the maintenance log, and it no longer can.</li>
+        <li>Logging tire maintenance now records tread readings for the tires that are mounted. Mounting itself is done from the Tires screen.</li>
+    </ul>
+
+    <h3>1.7 — Reminders that take you somewhere</h3>
+    <ul>
+        <li>Tapping a reminder opens the relevant screen: maintenance intervals, appointments, warranty, the dashboard for an odometer reminder, or backup.</li>
+        <li>Longer reminders can be expanded instead of being cut off.</li>
+        <li>New app icon.</li>
+    </ul>
+
+    <h3>1.6 — First release</h3>
+    <p>
+        CarKeeper tracks maintenance, fuel, tires and warranties for your
+        vehicles. Everything stays on your phone: no account, no internet,
+        no ads.
+    </p>
+    <ul>
+        <li>Log maintenance visits with parts, costs, provider and photos</li>
+        <li>Reminders before service is due</li>
+        <li>Every part number and fluid spec in one place</li>
+        <li>Fuel tracking, which also keeps your odometer current</li>
+        <li>Tire tread tracking and warranty tracking with time and mileage limits</li>
+        <li>Tool lists for each job</li>
+        <li>PDF service history and full backups</li>
+        <li>English and French</li>
+    </ul>
+
+    <hr>
+
+    <h1 lang="fr">CarKeeper</h1>
+    <h2 id="notes-de-version" lang="fr">Notes de version</h2>
+    <p class="lang-link" lang="fr"><a href="#release-notes">English</a></p>
+
+    <p class="intro" lang="fr">
+        Toutes les versions, de la plus récente à la plus ancienne. Si une
+        version demande de faire une sauvegarde d'abord, utilisez
+        Paramètres → Sauvegarde et restauration avant la mise à jour.
+    </p>
+
+    <h3 lang="fr">1.9 — La référence rapide à votre façon</h3>
+    <ul lang="fr">
+        <li>Nouvelle page <strong>Paramètres → Référence rapide</strong> avec un interrupteur pour chaque ligne du tableau de bord : plaque, NIV, chaque liquide, chaque catégorie de pièces, essuie-glaces et pneus.</li>
+        <li>Les lignes masquées sont résumées par une ligne « N masquées · Personnaliser » au bas de la référence rapide, qui ramène directement aux interrupteurs.</li>
+        <li>Masquer une ligne ne change que le tableau de bord. Vos données, rappels, l'écran Pièces et les rapports PDF ne sont pas touchés, et l'avertissement d'usure des pneus s'affiche toujours.</li>
+        <li>Tout est affiché par défaut : rien ne change tant que vous n'avez pas choisi.</li>
+    </ul>
+
+    <h3 lang="fr">1.8.1 — Des catégories personnalisées réutilisables</h3>
+    <ul lang="fr">
+        <li>Le champ personnalisé s'appelle maintenant <strong>Nom de la catégorie</strong>, avec la liste des noms déjà utilisés, pour qu'un travail répété se retrouve dans la même catégorie.</li>
+        <li>Un nouveau champ <strong>Ce qui a été fait</strong> contient la description, ce qui permet de garder le nom de la catégorie court.</li>
+        <li>Les noms sont comparés sans tenir compte des majuscules ni des espaces en trop, de sorte que les totaux de coûts ne se divisent plus.</li>
+        <li>Pour corriger d'anciennes entrées, ouvrez l'entrée dans l'historique et modifiez son nom de catégorie. Les anciennes entrées ne sont pas fusionnées automatiquement, car l'application ne peut pas savoir où le nom se termine et où la description commence.</li>
+    </ul>
+
+    <h3 lang="fr">1.8 — Les pneus, un par un</h3>
+    <ul lang="fr">
+        <li><strong>Faites une sauvegarde d'abord.</strong> Cette mise à jour change la façon dont les pneus sont stockés. Utilisez Paramètres → Sauvegarde et restauration avant de mettre à jour.</li>
+        <li>Les pneus sont maintenant suivis individuellement plutôt qu'en jeux assortis : un pneu de secours temporaire, un seul remplacement ou un montage mixte peuvent tous être enregistrés.</li>
+        <li>Montez les pneus à chaque coin sur l'écran Pneus. Un coin peut rester vide.</li>
+        <li>Les pneus qui ne sont pas sur le véhicule sont listés sous <strong>En entreposage</strong>, regroupés par saison. Les pneus usés ou endommagés peuvent être <strong>retirés</strong> avec une raison et restent au dossier.</li>
+        <li>Chaque pneu retient le coin qu'il occupait avant, ce qui rend les permutations visibles. Au montage, la profondeur de la bande de roulement et le coin précédent sont affichés pour distinguer des pneus identiques.</li>
+        <li>Ajoutez plusieurs pneus identiques d'un coup : saisissez les détails une fois et choisissez la quantité.</li>
+        <li>Si deux jeux avaient été marqués comme étant sur le véhicule, ces pneus passent en entreposage et vous indiquez ce qui est réellement monté. Cette situation pouvait se produire depuis le journal d'entretien, et ce n'est plus possible.</li>
+        <li>L'enregistrement d'un entretien de pneus consigne maintenant les mesures pour les pneus qui sont montés. Le montage lui-même se fait depuis l'écran Pneus.</li>
+    </ul>
+
+    <h3 lang="fr">1.7 — Des rappels qui vous mènent au bon endroit</h3>
+    <ul lang="fr">
+        <li>Toucher un rappel ouvre l'écran concerné : intervalles d'entretien, rendez-vous, garantie, tableau de bord pour un rappel d'odomètre, ou sauvegarde.</li>
+        <li>Les rappels plus longs peuvent être déployés au lieu d'être coupés.</li>
+        <li>Nouvelle icône de l'application.</li>
+    </ul>
+
+    <h3 lang="fr">1.6 — Première version</h3>
+    <p lang="fr">
+        CarKeeper permet de suivre l'entretien, le carburant, les pneus et
+        les garanties de vos véhicules. Tout reste sur votre téléphone :
+        aucun compte, aucune connexion, aucune publicité.
+    </p>
+    <ul lang="fr">
+        <li>Enregistrez les visites d'entretien avec pièces, coûts, fournisseur et photos</li>
+        <li>Rappels avant les échéances</li>
+        <li>Tous les numéros de pièces et spécifications de liquides au même endroit</li>
+        <li>Suivi du carburant, qui garde aussi votre odomètre à jour</li>
+        <li>Suivi de la bande de roulement des pneus et des garanties, avec limites de temps et de kilométrage</li>
+        <li>Listes d'outils pour chaque tâche</li>
+        <li>Historique PDF et sauvegardes complètes</li>
+        <li>Anglais et français</li>
+    </ul>
+
+    <footer>
+        <a href="../">Privacy policy</a> · <a href="../" lang="fr">Politique de confidentialité</a><br>
+        © 2026 MrThePonder · CarKeeper
+    </footer>
+
+</main>
+</body>
+</html>
