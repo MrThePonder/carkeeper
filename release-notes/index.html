@@ -93,7 +93,7 @@
 
     <!--
     TEMPLATE FOR A NEW RELEASE. Copy this block into the top of the English
-    list (just under this comment) and edit it. The French list stops at 1.11:
+    list (just under this comment) and edit it. The French list runs through 1.15:
     releases after that are English only.
 
     <h3>1.9.1 — Short title</h3>
@@ -103,26 +103,18 @@
     </ul>
     -->
 
-    <h3>1.13 — Attach receipts and files</h3>
+    <h3>1.15 — Appointments, attachments and appearance</h3>
     <ul>
-    <li>You can now attach PDFs and other files to maintenance entries and to warranty paperwork, not just photos. Use <strong>Add file</strong> in the Attachments section and pick a file that is already on your phone, such as a receipt saved from an email. Several files can be added at once.</li>
-    <li>Tap an attached file, in the entry or in History, to open it in your phone's own app for that type. If no app can open it, you are told.</li>
-    <li>Files up to 25 MB can be attached. Larger ones are skipped with a message, so a single file cannot make your backups huge.</li>
-    <li>Attached files travel in your backup like photos. Restoring a backup now reconnects each file to its entry on the new phone, and ignores anything in a backup that would be written outside the app's own folder.</li>
-    </ul>
-    
-    <h3>1.12 — Appearance and colours</h3>
-    <ul>
-        <li>New <strong>Settings → Appearance</strong> page. Choose System, Dark or Light, and pick the colour of buttons, switches and selections: blue, green, orange, purple, or any colour you type as a hex code. The shade is adjusted for each theme so text stays readable.</li>
-        <li>Backgrounds are now neutral grey instead of blue-grey, in both dark and light themes.</li>
-        <li>Archived vehicles no longer send reminders. Their data is kept, and reminders resume if you un-archive the vehicle.</li>
-    </ul>
-
-    <h3>1.11 — Fuel: missing fill-ups</h3>
-    <ul>
-        <li>If a fill-up is missing from your records, whether you forgot it or someone else filled the tank, open the next full fill and turn on <strong>A fill-up is missing before this one</strong>. The stretch before it is left out of the economy figures, and economy is measured from that fill. Earlier results are kept and nothing is deleted.</li>
-        <li>A fill marked this way shows "New measurement starts here" in the list and in the PDF report.</li>
-        <li>The option is only offered on full-tank fills, because after a partial fill the amount left in the tank is unknown.</li>
+        <li><strong>Back up first if you are updating from version 1.9 or earlier.</strong> The tire changes described under 1.10 below apply to you. Use Settings → Backup &amp; restore before updating.</li>
+        <li><strong>Appointments and renewals.</strong> A check mark appears on the dashboard from the day of an appointment, and a short message lets you undo it. An appointment can have an optional time, shown on the dashboard, in the list and in reminders.</li>
+        <li>Yearly renewals now stay on their date and show as overdue until you mark them done, then move exactly one year ahead. Before, they silently jumped to next year the moment their date passed, and marking one done late skipped a whole year. Renewals you already have look the same after updating.</li>
+        <li><strong>Choose when reminders arrive</strong> in Settings → Reminders → Reminder time (8:00 AM unless you change it). Reminders arrive around that time; Android can delay them by a few minutes.</li>
+        <li>Maintenance reminders open the dashboard. Tapping an appointment, a warranty or an emergency kit item in Upcoming opens its page. Archived vehicles no longer send reminders.</li>
+        <li>Maintenance history is now first in the menu's Maintenance group.</li>
+        <li><strong>Attach PDFs and other files</strong> to maintenance entries and warranties with <strong>Add file</strong> in the Attachments section, such as a receipt saved from an email. Files up to 25 MB can be attached, and tapping one opens it in your phone's own app. Restoring a backup now reconnects each file to its entry on the new phone.</li>
+        <li><strong>Settings → Appearance:</strong> choose System, Dark or Light, and an accent colour: blue, green, orange, purple or any hex code you type. Backgrounds are now neutral grey.</li>
+        <li><strong>PDF reports</strong> are now translated, wrap long lines instead of cutting them off, and can be written in English or French whatever language the app is in, using the Report language choice on the export screen.</li>
+        <li><strong>Fuel:</strong> if a fill-up is missing from your records, turn on <strong>A fill-up is missing before this one</strong> on the next full fill. The stretch before it is left out of the economy figures, and nothing is deleted.</li>
     </ul>
 
     <h3>1.10.1 — Menu scrolls and collapses</h3>
@@ -212,27 +204,19 @@
         version demande de faire une sauvegarde d'abord, utilisez
         Paramètres → Sauvegarde et restauration avant la mise à jour.
     </p>
-    
-    <h3 lang="fr">1.13 — Joindre des reçus et des fichiers</h3>
-    <ul lang="fr">
-        <li>Vous pouvez maintenant joindre des PDF et d'autres fichiers aux entrées d'entretien et aux documents de garantie, et plus seulement des photos. Utilisez <strong>Ajouter un fichier</strong> dans la section Pièces jointes et choisissez un fichier déjà présent sur votre téléphone, comme un reçu enregistré depuis un courriel. Plusieurs fichiers peuvent être ajoutés à la fois.</li>
-        <li>Touchez un fichier joint, dans l'entrée ou dans l'historique, pour l'ouvrir dans l'application de votre téléphone prévue pour ce type de fichier. Si aucune application ne peut l'ouvrir, un message vous l'indique.</li>
-        <li>Les fichiers jusqu'à 25 Mo peuvent être joints. Les fichiers plus gros sont ignorés avec un message, afin qu'un seul fichier ne rende pas vos sauvegardes énormes.</li>
-        <li>Les fichiers joints voyagent dans votre sauvegarde comme les photos. La restauration d'une sauvegarde rattache maintenant chaque fichier à son entrée sur le nouveau téléphone et ignore tout élément d'une sauvegarde qui serait écrit à l'extérieur du dossier de l'application.</li>
-    </ul>
-    
-    <h3 lang="fr">1.12 — Apparence et couleurs</h3>
-    <ul lang="fr">
-        <li>Nouvelle page <strong>Paramètres → Apparence</strong>. Choisissez Système, Sombre ou Clair, et la couleur des boutons, des interrupteurs et des sélections : bleu, vert, orange, violet, ou n'importe quelle couleur saisie sous forme de code hexadécimal. La teinte est ajustée pour chaque thème afin que le texte reste lisible.</li>
-        <li>Les arrière-plans sont maintenant d'un gris neutre plutôt que gris-bleu, dans les thèmes sombre et clair.</li>
-        <li>Les véhicules archivés n'envoient plus de rappels. Leurs données sont conservées et les rappels reprennent si vous désarchivez le véhicule.</li>
-    </ul>
 
-    <h3 lang="fr">1.11 — Carburant : pleins manquants</h3>
+    <h3 lang="fr">1.15 — Rendez-vous, pièces jointes et apparence</h3>
     <ul lang="fr">
-        <li>Si un plein manque dans vos données, que vous l'ayez oublié ou que quelqu'un d'autre ait rempli le réservoir, ouvrez le plein complet suivant et activez <strong>Un plein manque avant celui-ci</strong>. La période qui précède est exclue des calculs de consommation, qui repartent de ce plein. Les résultats précédents sont conservés et rien n'est supprimé.</li>
-        <li>Un plein marqué ainsi affiche « Nouvelle mesure à partir d'ici » dans la liste et dans le rapport PDF.</li>
-        <li>L'option n'est offerte que sur les pleins complets, car après un plein partiel on ne sait pas ce qu'il reste dans le réservoir.</li>
+        <li><strong>Faites une sauvegarde d'abord si vous mettez à jour depuis la version 1.9 ou une version antérieure.</strong> Les changements aux pneus décrits dans la version 1.10 ci-dessous s'appliquent à vous. Utilisez Paramètres → Sauvegarde et restauration avant de mettre à jour.</li>
+        <li><strong>Rendez-vous et renouvellements.</strong> Une coche apparaît sur le tableau de bord à partir du jour d'un rendez-vous, et un court message permet de l'annuler. Un rendez-vous peut avoir une heure facultative, affichée sur le tableau de bord, dans la liste et dans les rappels.</li>
+        <li>Les renouvellements annuels restent maintenant à leur date et s'affichent en retard jusqu'à ce que vous les marquiez comme faits, puis avancent d'exactement un an. Auparavant, ils passaient silencieusement à l'année suivante dès que leur date était dépassée, et en marquer un en retard sautait une année entière. Les renouvellements que vous avez déjà s'affichent de la même façon après la mise à jour.</li>
+        <li><strong>Choisissez quand arrivent les rappels</strong> dans Paramètres → Rappels → Heure des rappels (8 h par défaut). Les rappels arrivent vers cette heure ; Android peut les retarder de quelques minutes.</li>
+        <li>Les rappels d'entretien ouvrent le tableau de bord. Toucher un rendez-vous, une garantie ou un article de la trousse d'urgence dans « À venir » ouvre sa page. Les véhicules archivés n'envoient plus de rappels.</li>
+        <li>L'historique d'entretien est maintenant en premier dans le groupe Entretien du menu.</li>
+        <li><strong>Joignez des PDF et d'autres fichiers</strong> aux entrées d'entretien et aux garanties avec <strong>Ajouter un fichier</strong> dans la section Pièces jointes, comme un reçu enregistré depuis un courriel. Les fichiers jusqu'à 25 Mo peuvent être joints, et en toucher un l'ouvre dans l'application de votre téléphone. La restauration d'une sauvegarde rattache maintenant chaque fichier à son entrée sur le nouveau téléphone.</li>
+        <li><strong>Paramètres → Apparence :</strong> choisissez Système, Sombre ou Clair, et une couleur d'accent : bleu, vert, orange, violet ou n'importe quel code hexadécimal. Les arrière-plans sont maintenant d'un gris neutre.</li>
+        <li><strong>Les rapports PDF</strong> sont maintenant traduits, renvoient à la ligne au lieu de couper les longues lignes, et peuvent être rédigés en anglais ou en français quelle que soit la langue de l'application, grâce au choix Langue du rapport sur l'écran d'exportation.</li>
+        <li><strong>Carburant :</strong> si un plein manque dans vos données, activez <strong>Un plein manque avant celui-ci</strong> sur le plein complet suivant. La période qui précède est exclue des calculs de consommation, et rien n'est supprimé.</li>
     </ul>
 
     <h3 lang="fr">1.10.1 — Le menu défile et se replie</h3>
